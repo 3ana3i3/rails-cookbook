@@ -17,25 +17,24 @@ puts 'Creating recipes...'
 Recipe.create!(
   name: 'Prawn Dumplings',
   description: 'Steamed dumplings filled with seasoned prawns and served with dipping sauce.',
-  rating: 4.6
-)
+  rating: 4)
 
 Recipe.create!(
   name: 'Sushi',
   description: 'Assorted sushi rolls including tuna, salmon, and avocado.',
-  rating: 4.9
+  rating: 4
 )
 
 Recipe.create!(
   name: 'Tacos',
   description: 'Crispy taco shells filled with spiced beef, lettuce, and cheese.',
-  rating: 4.3
+  rating: 4
 )
 
 Recipe.create!(
   name: 'Butter Chicken Curry',
   description: 'Creamy Indian curry made with tender chicken in a spiced tomato sauce.',
-  rating: 4.7
+  rating: 4
 )
 
 puts 'Finished'

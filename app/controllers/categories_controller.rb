@@ -4,11 +4,12 @@ class CategoriesController < ApplicationController
   end
 
   def show
-    @category = Category.find(params[:id])
+   @category = Category.find(params[:id])
+   @recipes = @category.recipes
   end
 
   def new
-    @category = Category.new 
+    @category = Category.new
   end
 
   def create
@@ -19,8 +20,16 @@ class CategoriesController < ApplicationController
       render :new
     end
   end
+  def destroy
+  @category = Category.find(params[:id])
+  @category.destroy
+  redirect_to categories_path, notice: 'Category was successfully deleted.'
+end
+
 
   private
 
   def category_params
-    params.require(:category).permit(:name
+    params.require(:category).permit(:name)
+  end
+end
