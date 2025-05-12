@@ -7,3 +7,35 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+# db/seeds.rb
+# db/seeds.rb
+puts 'Cleaning database...'
+Recipe.destroy_all
+
+puts 'Creating recipes...'
+
+Recipe.create!(
+  name: 'Prawn Dumplings',
+  description: 'Steamed dumplings filled with seasoned prawns and served with dipping sauce.',
+  rating: 4.6
+)
+
+Recipe.create!(
+  name: 'Sushi',
+  description: 'Assorted sushi rolls including tuna, salmon, and avocado.',
+  rating: 4.9
+)
+
+Recipe.create!(
+  name: 'Tacos',
+  description: 'Crispy taco shells filled with spiced beef, lettuce, and cheese.',
+  rating: 4.3
+)
+
+Recipe.create!(
+  name: 'Butter Chicken Curry',
+  description: 'Creamy Indian curry made with tender chicken in a spiced tomato sauce.',
+  rating: 4.7
+)
+
+puts 'Finished'
