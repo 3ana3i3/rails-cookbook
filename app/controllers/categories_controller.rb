@@ -26,10 +26,9 @@ class CategoriesController < ApplicationController
   redirect_to categories_path, notice: 'Category was successfully deleted.'
 end
 
-
   private
 
   def category_params
-    params.require(:category).permit(:name)
+    params.require(:category).permit(:name, :photo)
   end
 end

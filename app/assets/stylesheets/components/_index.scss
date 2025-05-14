@@ -1,0 +1,18 @@
+// Import your components CSS files here.
+@import "alert";
+@import "avatar";
+@import "form_legend_clear";
+@import "navbar";
+@import "banner";
+@import "card";
+@import "cardrecipe";
+@import "config/fonts"; 
+@import "btn";
+@import "form_new";
+
+.show-title {
+  margin-bottom: 1.5rem;     
+  color: #000000;              
+  background-color: #ffffff;
+  padding: 10px;
+}

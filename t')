@@ -1,0 +1,87 @@
+=> 
+[[32m#<Category:0x00007f067756c460[0m
+  id: [34m[1m1[0m,
+  name: [31m[1m"[0m[31mBreakfast[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 08:43:03.751772000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 08:43:03.751772000 UTC +00:00[32m>[0m,
+ [32m#<Category:0x00007f067756c320[0m
+  id: [34m[1m2[0m,
+  name: [31m[1m"[0m[31mPasta[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 08:43:03.970122000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 08:43:03.970122000 UTC +00:00[32m>[0m,
+ [32m#<Category:0x00007f067756c1e0[0m
+  id: [34m[1m3[0m,
+  name: [31m[1m"[0m[31mDessert[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 08:43:04.168799000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 08:43:04.168799000 UTC +00:00[32m>[0m,
+ [32m#<Category:0x00007f067756c0a0[0m
+  id: [34m[1m4[0m,
+  name: [31m[1m"[0m[31mChicken[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 08:43:04.904812000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 08:43:04.904812000 UTC +00:00[32m>[0m,
+ [32m#<Category:0x00007f067756bf60[0m
+  id: [34m[1m5[0m,
+  name: [31m[1m"[0m[31mJapanese[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 09:02:02.166606000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 09:02:02.222728000 UTC +00:00[32m>[0m,
+ [32m#<Category:0x00007f067756be20[0m
+  id: [34m[1m6[0m,
+  name: [31m[1m"[0m[31mItalian[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 09:03:06.232329000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 09:03:08.769094000 UTC +00:00[32m>[0m,
+ [32m#<Category:0x00007f067756bce0[0m
+  id: [34m[1m7[0m,
+  name: [31m[1m"[0m[31mIndian[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 09:08:50.789484000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 09:08:53.240245000 UTC +00:00[32m>[0m,
+ [32m#<Category:0x00007f067756bba0[0m
+  id: [34m[1m8[0m,
+  name: [31m[1m"[0m[31mSpanish[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 09:09:49.186561000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 09:09:51.678492000 UTC +00:00[32m>[0m,
+ [32m#<Category:0x00007f067756ba60[0m
+  id: [34m[1m9[0m,
+  name: [31m[1m"[0m[31mChinese[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 09:10:06.146113000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 09:10:08.759993000 UTC +00:00[32m>[0m]
+=> 
+[[32m#<Category:0x00007efe7cce6680[0m
+  id: [34m[1m2[0m,
+  name: [31m[1m"[0m[31mPasta[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 08:43:03.970122000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 08:43:03.970122000 UTC +00:00[32m>[0m,
+ [32m#<Category:0x00007efe7cce6540[0m
+  id: [34m[1m3[0m,
+  name: [31m[1m"[0m[31mDessert[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 08:43:04.168799000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 08:43:04.168799000 UTC +00:00[32m>[0m,
+ [32m#<Category:0x00007efe7cce6400[0m
+  id: [34m[1m4[0m,
+  name: [31m[1m"[0m[31mChicken[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 08:43:04.904812000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 08:43:04.904812000 UTC +00:00[32m>[0m,
+ [32m#<Category:0x00007efe7cce62c0[0m
+  id: [34m[1m5[0m,
+  name: [31m[1m"[0m[31mJapanese[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 09:02:02.166606000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 09:02:02.222728000 UTC +00:00[32m>[0m,
+ [32m#<Category:0x00007efe7cce6180[0m
+  id: [34m[1m6[0m,
+  name: [31m[1m"[0m[31mItalian[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 09:03:06.232329000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 09:03:08.769094000 UTC +00:00[32m>[0m,
+ [32m#<Category:0x00007efe7cce6040[0m
+  id: [34m[1m7[0m,
+  name: [31m[1m"[0m[31mIndian[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 09:08:50.789484000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 09:08:53.240245000 UTC +00:00[32m>[0m,
+ [32m#<Category:0x00007efe7cce5f00[0m
+  id: [34m[1m8[0m,
+  name: [31m[1m"[0m[31mSpanish[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 09:09:49.186561000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 09:09:51.678492000 UTC +00:00[32m>[0m,
+ [32m#<Category:0x00007efe7cce5dc0[0m
+  id: [34m[1m9[0m,
+  name: [31m[1m"[0m[31mChinese[0m[31m[1m"[0m,
+  created_at: Wed, 14 May 2025 09:10:06.146113000 UTC +00:00,
+  updated_at: Wed, 14 May 2025 09:10:08.759993000 UTC +00:00[32m>[0m]

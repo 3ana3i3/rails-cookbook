@@ -1,40 +1,33 @@
-# This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Example:
-#
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
-# db/seeds.rb
-# db/seeds.rb
-puts 'Cleaning database...'
-Recipe.destroy_all
+require 'faker'
 
-puts 'Creating recipes...'
+# Fakerのunique生成をリセット（再実行時の重複を防ぐ）
+Faker::UniqueGenerator.clear
 
-Recipe.create!(
-  name: 'Prawn Dumplings',
-  description: 'Steamed dumplings filled with seasoned prawns and served with dipping sauce.',
-  rating: 4)
+# カテゴリーの作成（すでに存在していれば作成しない）
+["Breakfast", "Italian", "Japanese", "Indian"].each do |category_name|
+  Category.find_or_create_by(name: category_name)
+end
 
-Recipe.create!(
-  name: 'Sushi',
-  description: 'Assorted sushi rolls including tuna, salmon, and avocado.',
-  rating: 4
-)
+20.times do
+  category = Category.order('RANDOM()').first
+  name = Faker::Food.dish
+  next if Recipe.exists?(name: name)  # 重複があればスキップ
+  Recipe.create!(
+    name: name,
+    description: Faker::Food.description,
+    image_url: Faker::Avatar.image,
+    rating: rand(1..5),
+    category: category
+  )
+end
 
-Recipe.create!(
-  name: 'Tacos',
-  description: 'Crispy taco shells filled with spiced beef, lettuce, and cheese.',
-  rating: 4
-)
+# ブックマークを作成
+Recipe.find_each do |recipe|
+  Bookmark.create!(
+    recipe: recipe,
+    category: recipe.category,  # Category オブジェクトをそのまま
+    comment: "This is a great recipe for #{recipe.category.name.downcase}!"
+  )
+end
 
-Recipe.create!(
-  name: 'Butter Chicken Curry',
-  description: 'Creamy Indian curry made with tender chicken in a spiced tomato sauce.',
-  rating: 4
-)
-
-puts 'Finished'
+puts "Seeding completed!"
